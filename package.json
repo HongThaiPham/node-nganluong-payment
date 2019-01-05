@@ -1,6 +1,6 @@
 {
   "name": "node-nganluong-payment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tich hợp cổng thanh toán Ngân lượng VN",
   "main": "dist/index.js",
   "scripts": {
