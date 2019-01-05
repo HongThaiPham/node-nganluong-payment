@@ -1,0 +1,24 @@
+{
+  "name": "node-nganluong-payment",
+  "version": "1.0.0",
+  "description": "Tich hợp cổng thanh toán Ngân lượng VN",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir -p dist && npx babel src -s -D -d dist"
+  },
+  "repository": "https://github.com/HongThaiPham/node-nganluong-payment.git",
+  "author": "Leo Pham",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "simpl-schema": "^1.5.3",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.3"
+  }
+}
